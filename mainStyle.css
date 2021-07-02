@@ -1,18 +1,20 @@
-@media (min-width: 768px){
-    header{
+@media (min-width: 768px) {
+    header {
         top: 50px;
     }
 }
 
-h1{
+h1 {
     font-size: 100%;
     font-weight: inherit;
 }
-a{
+
+a {
     color: #000000;
     display: inline-block;
 }
-header{
+
+header {
     width: 100%;
     text-align: center;
     position: absolute;
@@ -24,25 +26,29 @@ header{
     justify-content: center;
 }
 
-head{
+head {
     display: block;
 }
-header h1{
+
+header h1 {
     position: relative;
     display: block;
     text-align: center;
 }
-header h1 a{
+
+header h1 a {
     display: block;
 }
-header .main-title{
+
+header .main-title {
     display: inline-block;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: -0.7px;
-    color:lightskyblue;
+    color: lightskyblue;
     margin-top: 0px;
 }
+
 /*
 header .gist-mbti::after{
     content: '';
@@ -53,16 +59,18 @@ header .gist-mbti::after{
     background-color: rgba(255, 255, 255, 0.26);
     margin: 2px 8px 0 10px;
 }*/
-.gist-mbti{
-    width:  80px;
+.gist-mbti {
+    width: 80px;
     image-rendering: auto;
 }
-.question-gage-container{
+
+.question-gage-container {
     position: relative;
     margin: 20px auto 0;
     width: 190px;
 }
-.question-gage{
+
+.question-gage {
     height: 2px;
     width: 190px;
     background-color: #444444;
@@ -70,46 +78,51 @@ header .gist-mbti::after{
 
 
 
-.section-inner{
+.section-inner {
     display: flex;
     width: 100%;
     height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border:1px solid red;
+    border: 1px solid red;
     padding: 50px 20px 18px;
 }
-.main-container{
+
+.main-container {
     display: flex;
     position: relative;
     z-index: 1;
     max-width: 360px;
     margin: 0 auto;
     min-height: 600px;
-/*    overflow: hidden; */
+    /*    overflow: hidden; */
     height: 100vh;
 
 }
-.main-container-inner{
+
+.main-container-inner {
     display: flex;
     width: 100%;
     height: 100%;
 
 }
-.step-container{
+
+.step-container {
     display: flex;
     width: 100%;
     height: 100%;
     flex: 0 0 360px;
-    
+
 }
-.answer-container{
+
+.answer-container {
     width: 100%;
     padding-top: 80px;
     text-align: center;
 }
-.answer{
+
+.answer {
     width: 100%;
     display: block;
     color: blue;
@@ -120,9 +133,10 @@ header .gist-mbti::after{
     font-weight: 500;
     margin-bottom: 10px;
     height: 66px;
-    
+
 }
-button{
+
+button {
     cursor: pointer;
     background-color: transparent;
 
