@@ -47,7 +47,7 @@ header .main-title {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: -0.7px;
-    color: lightskyblue;
+    color: #d3d3d3;
     margin-top: 0px;
 }
 
@@ -83,6 +83,7 @@ header .gist-mbti::after{
     line-height: 34px;
     color: white;
     padding: 20px 0;
+    font-family: 'Single Day', cursive;
 }
 .pic{
     text-align: center;
@@ -96,7 +97,8 @@ header .gist-mbti::after{
     align-items: center;
     justify-content: center;
     border: 1px solid red;
-    padding: 50px 20px 18px;
+    padding: 100px 20px 18px;
+    box-sizing: border-box;
 }
 
 .main-container {
@@ -143,7 +145,7 @@ header .gist-mbti::after{
     font-weight: 500;
     margin-bottom: 10px;
     height: 66px;
-
+    font-family: 'Single Day', cursive;
 }
 
 button {
@@ -154,5 +156,56 @@ button {
 .image{
     width: 41px;
     box-sizing: border-box;
+    text-align: center;
+}
+.btn-start{
+    width: 300px;
+    display: block;
+    color: white;
+    border: 1px solid #ceaa8a;
+    background-color: #ceaa8a;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 66px;
+    font-family: 'Single Day', cursive;
+}
+.main-text{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Single Day', cursive;
+
+}
+h5{
+    margin-top: 0;
+    padding-bottom: 30px;
+    color: #7e7e7e;
+    font-family: 'Single Day', cursive;
+    text-align: center;
+    font-weight: 200;
+}
+.discription-text{
+    text-align: center;
+    color: #a8a8a8;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Single Day', cursive;
+    padding-top: 30px;
+}
+.below-btn{
+    font-size: 15px;
+    font-weight: 200;
+    color: #c1c1c1;
+    font-family: 'Single Day', cursive;
+
+}
+.link-container{
     text-align: center;
 }
