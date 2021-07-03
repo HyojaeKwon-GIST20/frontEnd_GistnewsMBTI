@@ -3,14 +3,16 @@
         top: 50px;
     }
 }
-
+body{
+    background-color: #444444;
+}
 h1 {
     font-size: 100%;
     font-weight: inherit;
 }
 
 a {
-    color: #000000;
+    color: #444444;
     display: inline-block;
 }
 
@@ -75,8 +77,16 @@ header .gist-mbti::after{
     width: 190px;
     background-color: #444444;
 }
-
-
+.question{
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+    color: white;
+    padding: 20px 0;
+}
+.pic{
+    text-align: center;
+}
 
 .section-inner {
     display: flex;
@@ -97,7 +107,7 @@ header .gist-mbti::after{
     margin: 0 auto;
     min-height: 600px;
     /*    overflow: hidden; */
-    height: 100vh;
+    height: 90vh;
 
 }
 
@@ -123,10 +133,10 @@ header .gist-mbti::after{
 }
 
 .answer {
-    width: 100%;
+    width: 300px;
     display: block;
-    color: blue;
-    border: 1px solid purple;
+    color: #ceaa8a;
+    border: 1px solid #ceaa8a;
     border-radius: 10px;
     font-size: 15px;
     line-height: 20px;
@@ -140,4 +150,9 @@ button {
     cursor: pointer;
     background-color: transparent;
 
+}
+.image{
+    width: 41px;
+    box-sizing: border-box;
+    text-align: center;
 }
