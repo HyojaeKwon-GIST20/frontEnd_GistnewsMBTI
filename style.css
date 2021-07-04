@@ -1,0 +1,224 @@
+@media (min-width: 768px) {
+    header {
+        top: 50px;
+    }
+}
+body{
+    background-color: #444444;
+}
+h1 {
+    font-size: 100%;
+    font-weight: inherit;
+}
+
+a {
+    color: #444444;
+    display: inline-block;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    display: block;
+    z-index: 2;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+head {
+    display: block;
+}
+
+header h1 {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+header h1 a {
+    display: block;
+}
+
+header .main-title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    color: #d3d3d3;
+    margin-top: 0px;
+}
+
+/*
+header .gist-mbti::after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.26);
+    margin: 2px 8px 0 10px;
+}*/
+.gist-mbti {
+    width: 80px;
+    image-rendering: auto;
+}
+
+.question-gage-container {
+    position: relative;
+    margin: 20px auto 0;
+    width: 190px;
+}
+
+.question-gage {
+    height: 2px;
+    width: 190px;
+    background-color: #444444;
+}
+.question{
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+    color: white;
+    padding: 20px 0;
+    font-family: 'Single Day', cursive;
+}
+.pic{
+    text-align: center;
+}
+
+.section-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 100px 20px 18px;
+    box-sizing: border-box;
+    /*display : none;*/
+}
+
+.main-container {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto;
+    min-height: 600px;
+    /*    overflow: hidden; */
+    height: 95vh;
+
+}
+
+.main-container-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.step-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 0 0 360px;
+
+}
+
+.answer-container {
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.answer {
+    width: 300px;
+    display: block;
+    color: #ceaa8a;
+    border: 1px solid #ceaa8a;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 66px;
+    font-family: 'Single Day', cursive;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.image{
+    width: 41px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.btn-start{
+    width: 300px;
+    display: block;
+    color: white;
+    border: 1px solid #ceaa8a;
+    background-color: #ceaa8a;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 66px;
+    font-family: 'Single Day', cursive;
+}
+.main-text{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Single Day', cursive;
+
+}
+h5{
+    margin-top: 0;
+    padding-bottom: 30px;
+    color: #7e7e7e;
+    font-family: 'Single Day', cursive;
+    text-align: center;
+    font-weight: 200;
+}
+.discription-text{
+    text-align: center;
+    color: #a8a8a8;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Single Day', cursive;
+    padding-top: 30px;
+}
+.below-btn{
+    font-size: 15px;
+    font-weight: 200;
+    color: #c1c1c1;
+    font-family: 'Single Day', cursive;
+
+}
+.link-container{
+    text-align: center;
+}
+.main-section-inner{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 100px 20px 18px;
+    box-sizing: border-box;
+    /*display : none;*/
+}

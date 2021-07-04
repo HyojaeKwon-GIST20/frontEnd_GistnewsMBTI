@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>
+        GistNews-MBTI
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+    </style>
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <header class="page-header">
+        <h1>
+            <a href="www.gistnews.com">
+                <span class="mbti">
+                    <img src="gistnews_logo.PNG" alt="gist_news" class="gist-mbti">
+                </span>
+                <br>
+                <span class="main-title" style="font-family: 'Single Day', cursive;"> 신문사 MBTI</span>
+            </a>
+        </h1>
+        <div class="question-gage-container">
+            <span class="question-gage-bar">
+            </span>
+        </div>
+    </header>
+    <div class="main-container main-inner">
+        <div class="main-container-inner">
+            <div class="step-main step-inner">
+                <div class="main-section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="diamond.png" alt="image" class="image">
+                        </div>
+                    </div>
+                    <div class="main-text-container">
+                        <div class="main-text">
+                            당신은
+                            <br>
+                            <span style="color: #ceaa8a;">어떤 보물</span>인가요?
+                        </div>
+                    </div>
+                    <h5>보물로 알아보는 신문사 성향 테스트</h5>
+                    <div class="btn-container">
+                        <button class="btn-start">
+                            시작하기
+                        </button>
+                    </div>
+                    <div class="description-text-container">
+                        <div class="discription-text">
+                            야매로 제작해본 신문사 MBTI TEST,
+                            <br>
+                            Wing Project로 제작됐습니다.
+                        </div>
+                        <div class="link-container">
+                            <a href="http://gistnews.co.kr/?author=103" class="below-btn">
+                                Who
+                            </a>
+                            <a href="http://gistnews.co.kr/?author=104" class="below-btn">
+                                We
+                            </a>
+                            <a href="http://gistnews.co.kr/?author=106" class="below-btn">
+                                Are
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step-intro step-container">
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="aplus.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 1번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 4번
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="step-question step-container">
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="photo.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 2번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="toilet.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 3번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 4번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="list.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 4번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="music.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 5번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 4번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="guru.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 6번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="idea.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 7번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="voice_presentaion-512.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 8번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 4번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="watch-512.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 9번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 4번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="ai-512.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 10번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="question-container">
+                        <div class="pic">
+                            <img src="airport-512.png" alt="image" class="image">
+                        </div>
+                        <div class="question">
+                            문제 11번
+                        </div>
+                    </div>
+                    <div class="answer-container">
+                        <button class="answer",data-type = "reporter", onclick="pushSlides()">
+                            답안 1번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 2번
+                        </button>
+                        <button class="answer",data-type = "editor", onclick="pushSlides()">
+                            답안 3번
+                        </button>
+                        <button class="answer",data-type = "designer", onclick="pushSlides()">
+                            답안 4번
+                        </button>
+                    </div>
+                </div>
+                <div class="section-inner">
+                    <div class="main-text-container">
+                        <div class="main-text">
+                            과연 당신은
+                            <br>
+                            <span style="color: #ceaa8a;">어떤 보물</span>일까요?
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                        <button class="btn-start">
+                            결과 보기
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
