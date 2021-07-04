@@ -7,6 +7,12 @@
         padding-top: 150px;
     }
 }
+@media (min-width: 320px) and (max-width: 480px) {
+
+.result-pic{
+    padding-top: 2cm;
+}    
+}
 
 @keyframes opacappear {
     0% {
@@ -46,6 +52,7 @@ a {
 .result-pic {
     width: 360px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .result-container {
@@ -63,6 +70,7 @@ a {
 
 #pic-top {
     width: 300px;
+    text-align: center;
 }
 
 h2 {
