@@ -129,4 +129,6 @@ li {
 .compa-img img {
     width: 110px;
     height: 110px;
+    margin: auto;
+    padding-top: 20px;
 }
